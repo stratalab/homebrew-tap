@@ -1,24 +1,24 @@
 class Strata < Formula
   desc "Embedded database for the agent era: branch, time-travel, search"
   homepage "https://stratadb.org"
-  version "1.2.2"
+  version "1.2.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/stratalab/strata-core/releases/download/v1.2.2/strata-v1.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "590e43ab66365547e080d1a2c439b696b6985c8c88e8ad982b1963dda7e46838"
+      url "https://github.com/stratalab/strata-core/releases/download/v1.2.3/strata-v1.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "c14a308aa7e801df8067d070d8cf89627333db43c13dc91fdfe4d6e92802e8fd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/stratalab/strata-core/releases/download/v1.2.2/strata-v1.2.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "16cd2ec89f1e1dfe9458ed0d5461353cba188d49b5b4368cedb9fdeea63f53ef"
+      url "https://github.com/stratalab/strata-core/releases/download/v1.2.3/strata-v1.2.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c11ed626a660724494140e4ff334b7f5dcc554f09e7c696d795b684ba861260b"
     end
     on_intel do
-      url "https://github.com/stratalab/strata-core/releases/download/v1.2.2/strata-v1.2.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0ee629e9942d32158da7528a047bc39ca7c35d842580817f0c84d51f47f80a2b"
+      url "https://github.com/stratalab/strata-core/releases/download/v1.2.3/strata-v1.2.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e61b06d8ac69972e4fb14dfc5ca0208bd8d1986b60d8ec24092499271e3ad930"
     end
   end
 
